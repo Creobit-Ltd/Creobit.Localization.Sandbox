@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: accb6d7eb2b99dc4ead15fb9f79fbfb5, type: 3}
+  m_Name: LocalizationData
+  m_EditorClassIdentifier: 
+  _languages:
+  - ru-RU
+  - en-US
+  - de-DE
+  _keys:
+  - _id: text
+    _values:
+    - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439 (text)"
+    - Englich (text)
+    - Deutsche (text)
+  - _id: text_tmp
+    _values:
+    - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439 (text mesh pro)"
+    - Englich (text mesh pro)
+    - Deutsche (text mesh pro)
+  - _id: text_tmp_ugui
+    _values:
+    - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439 (text mesh pro ugui) "
+    - Englich (text mesh pro ugui)
+    - 'Deutsche (text mesh pro ugui) '
+  - _id: image
+    _values:
+    - ru/flag
+    - en/flag
+    - de/flag
+  - _id: audio_source
+    _values:
+    - ru/voice_hello
+    - en/voice_hello
+    - 

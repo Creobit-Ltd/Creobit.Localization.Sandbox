@@ -20,8 +20,10 @@ public class EntryPoint : MonoBehaviour
         value = _localizationData.GetString(key, German);
         Debug.LogFormat("German: {0}", value);
 
-        _localizationSystem = new LocalizationSystem(_localizationData);
-        _localizationSystem.DefaultLanguage = English;
+        _localizationSystem = new LocalizationSystem(_localizationData)
+        {
+            DefaultLanguage = English
+        };
 
         Localizer.LocalizationSystem = _localizationSystem;
 

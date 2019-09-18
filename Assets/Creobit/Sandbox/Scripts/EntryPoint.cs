@@ -27,7 +27,7 @@ public class EntryPoint : MonoBehaviour
 
         Localizer.LocalizationSystem = _localizationSystem;
 
-        _localizationSystem.SetCurrentLanguage(English);
+        _localizationSystem.CurrentLanguage = English;
     }
 
     #endregion
@@ -56,7 +56,7 @@ public class EntryPoint : MonoBehaviour
         else if (language == German)
             language = Russian;
 
-        _localizationSystem.SetCurrentLanguage(language);
+        _localizationSystem.CurrentLanguage = language;
 
         _audioSource?.Play();
     }

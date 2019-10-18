@@ -1,3 +1,5 @@
-# Localization.Sandbox
+# Документация
+[Creobit.Localization](https://github.com/creobitcom/Creobit.Localization)
 
-[Wiki](https://github.com/creobitcom/Creobit.Localization/wiki)
+# Лицензия
+[MIT](https://github.com/creobitcom/Creobit.Localization.Sandbox/blob/master/LICENSE.md)
